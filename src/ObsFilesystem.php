@@ -6,7 +6,6 @@ use creocoder\flysystem\Filesystem as BaseFileSystem;
 use Obs\ObsClient;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
-use Zing\Flysystem\Obs\ObsAdapter;
 
 /**
  * ObsFilesystem
