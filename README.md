@@ -1,5 +1,9 @@
 # 华为对象存储服务(OBS)
 
+[![Latest Stable Version](https://poser.pugx.org/bestyii/yii2-flysystem-obs/v/stable)](https://packagist.org/packages/bestyii/yii2-flysystem-obs)
+[![Total Downloads](https://poser.pugx.org/bestyii/yii2-flysystem-obs/downloads)](https://packagist.org/packages/bestyii/yii2-flysystem-obs)
+[![License](https://poser.pugx.org/bestyii/yii2-flysystem-obs/license)](https://packagist.org/packages/bestyii/yii2-flysystem-obs)
+
 ## 安装
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
