@@ -114,4 +114,19 @@ class ObsFilesystem extends BaseFileSystem
         }
         return new ObsAdapter($client, $this->endpoint, $this->bucket, $this->prefix, $options);
     }
+
+    /**
+     * sign url.
+     *
+     * @param $path
+     * @param \DateTimeInterface|int $expiration
+     * @param array $options
+     * @param mixed $method
+     *
+     * @return bool|string
+     */
+    public function getSignedUrl($path, $expiration, array $options = [], $method = 'GET')
+    {
+        return $this->getAdapter()->signUrl($path, $expiration,  $options , $method );
+    }
 }
